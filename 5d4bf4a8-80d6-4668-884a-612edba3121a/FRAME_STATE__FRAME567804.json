@@ -1,0 +1,1 @@
+["SIMPLE",{"left":{"pixelType":"COLUMN","class":"prerna.query.querystruct.selectors.QueryColumnSelector","value":["COLUMN",{"table":"YEAR","column":"PRIM_KEY_PLACEHOLDER","alias":"YEAR","tableAlias":null}],"opType":["OPERATION"]},"comparator":"==","right":{"pixelType":"CONST_INT","class":"java.lang.Integer","value":[2010],"opType":["OPERATION"]}}]

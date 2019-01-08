@@ -1,0 +1,1539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#member">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#member">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#member">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#member">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Container">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Container">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#object"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#member">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#member"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Container">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Container">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<IsPrimKey xmlns="http://semoss.org/ontologies/Relation/Contains/">true</IsPrimKey>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__STATEDATAPIVOTED">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__STATEDATAPIVOTED"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__STATEDATAPIVOTED">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">STATEDATAPIVOTED</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__AMAT_fac">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__AMAT_fac"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__AMAT_fac">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__AMAT_fac</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">AMAT_fac</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__CDC_consult">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__CDC_consult"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__CDC_consult">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__CDC_consult</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">CDC_consult</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__CURES_funds">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__CURES_funds"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__CURES_funds">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__CURES_funds</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">CURES_funds</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__DHAP_funds">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__DHAP_funds"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__DHAP_funds">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__DHAP_funds</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">DHAP_funds</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__DVH_funds">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__DVH_funds"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__DVH_funds">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__DVH_funds</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">DVH_funds</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVacute">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVacute"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVacute">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__HCVacute</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">HCVacute</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVacuterate">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVacuterate"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVacuterate">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__HCVacuterate</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">HCVacuterate</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVcases">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVcases"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVcases">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__HCVcases</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">HCVcases</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVprevalence">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVprevalence"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVprevalence">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__HCVprevalence</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">HCVprevalence</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HIVdiagnoses">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HIVdiagnoses"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HIVdiagnoses">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__HIVdiagnoses</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">HIVdiagnoses</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HIVincidence">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HIVincidence"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HIVincidence">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__HIVincidence</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">HIVincidence</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HIVprevalence">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HIVprevalence"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HIVprevalence">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__HIVprevalence</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">HIVprevalence</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HOPWA_funds">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HOPWA_funds"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HOPWA_funds">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__HOPWA_funds</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">HOPWA_funds</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__MH_fac">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__MH_fac"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__MH_fac">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__MH_fac</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">MH_fac</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_AMAT_fac">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_AMAT_fac"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_AMAT_fac">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__Med_AMAT_fac</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Med_AMAT_fac</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_MH_fac">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_MH_fac"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_MH_fac">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__Med_MH_fac</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Med_MH_fac</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_SA_fac">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_SA_fac"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_SA_fac">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__Med_SA_fac</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Med_SA_fac</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_SMAT_fac">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_SMAT_fac"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_SMAT_fac">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__Med_SMAT_fac</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Med_SMAT_fac</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_TMAT_fac">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_TMAT_fac"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_TMAT_fac">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__Med_TMAT_fac</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Med_TMAT_fac</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__PDMP_check_req">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__PDMP_check_req"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__PDMP_check_req">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__PDMP_check_req</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">PDMP_check_req</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__PLHIV">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__PLHIV"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__PLHIV">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__PLHIV</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">PLHIV</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Population">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Population"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Population">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__Population</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Population</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__RW_funds">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__RW_funds"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__RW_funds">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__RW_funds</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">RW_funds</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__SA_fac">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__SA_fac"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__SA_fac">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__SA_fac</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">SA_fac</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__SMAT_fac">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__SMAT_fac"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__SMAT_fac">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__SMAT_fac</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">SMAT_fac</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__SSP_legality">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__SSP_legality"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__SSP_legality">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__SSP_legality</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">SSP_legality</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__STATEABBREVIATION">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__STATEABBREVIATION"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__STATEABBREVIATION">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__STATEABBREVIATION</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">STATEABBREVIATION</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__STATE_1">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__STATE_1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__STATE_1">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__STATE_1</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">STATE_1</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__TMAT_fac">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__TMAT_fac"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__TMAT_fac">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__TMAT_fac</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">TMAT_fac</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__YEAR">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__YEAR"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__YEAR">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__YEAR</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">YEAR</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__bup_phys">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__bup_phys"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__bup_phys">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__bup_phys</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">bup_phys</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__drugdeathrate">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__drugdeathrate"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__drugdeathrate">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__drugdeathrate</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">drugdeathrate</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__drugdeaths">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__drugdeaths"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__drugdeaths">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__drugdeaths</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">drugdeaths</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__drugdep">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__drugdep"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__drugdep">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__drugdep</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">drugdep</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__fentanyl_seize">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__fentanyl_seize"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__fentanyl_seize">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__fentanyl_seize</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">fentanyl_seize</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__mme_percap">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__mme_percap"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__mme_percap">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__mme_percap</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">mme_percap</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__nonmedpain">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__nonmedpain"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__nonmedpain">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__nonmedpain</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">nonmedpain</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__num_SSPs">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__num_SSPs"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__num_SSPs">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__num_SSPs</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">num_SSPs</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__op_rel_inpat">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__op_rel_inpat"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__op_rel_inpat">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__op_rel_inpat</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">op_rel_inpat</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__partD30dayrxrate">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__partD30dayrxrate"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__partD30dayrxrate">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__partD30dayrxrate</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">partD30dayrxrate</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__pct_tx_med">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__pct_tx_med"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__pct_tx_med">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__pct_tx_med</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">pct_tx_med</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__pctunins">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__pctunins"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__pctunins">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__pctunins</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">pctunins</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__pctunmetneed">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__pctunmetneed"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__pctunmetneed">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__pctunmetneed</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">pctunmetneed</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__state_year">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME559988__state_year"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__state_year">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__state_year</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">state_year</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/IsPrimKey">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/QueryStructName">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/IsDerived">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Alias">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__STATEDATAPIVOTED">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__AMAT_fac">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__CDC_consult">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__CURES_funds">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__DHAP_funds">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__DVH_funds">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVacute">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVacuterate">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVcases">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HCVprevalence">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HIVdiagnoses">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HIVincidence">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HIVprevalence">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__HOPWA_funds">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__MH_fac">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_AMAT_fac">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_MH_fac">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_SA_fac">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_SMAT_fac">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Med_TMAT_fac">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__PDMP_check_req">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__PLHIV">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__Population">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__RW_funds">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__SA_fac">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__SMAT_fac">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__SSP_legality">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__STATEABBREVIATION">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__STATE_1">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__TMAT_fac">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__YEAR">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__bup_phys">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__drugdeathrate">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__drugdeaths">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__drugdep">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__fentanyl_seize">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__mme_percap">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__nonmedpain">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__num_SSPs">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__op_rel_inpat">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__partD30dayrxrate">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__pct_tx_med">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__pctunins">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__pctunmetneed">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME559988__state_year">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/IsPrimKey">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/QueryStructName">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/IsDerived">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Alias">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/IsPrimKey">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/IsPrimKey"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/QueryStructName">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/QueryStructName"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/IsDerived">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/IsDerived"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Alias">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Alias"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+	<subPropertyOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME559988">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Concept/FRAME559988"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+</rdf:RDF>

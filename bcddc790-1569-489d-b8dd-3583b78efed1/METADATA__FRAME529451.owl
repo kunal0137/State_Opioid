@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME529451">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<IsPrimKey xmlns="http://semoss.org/ontologies/Relation/Contains/">true</IsPrimKey>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME529451__STATEDATAPIVOTED">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME529451">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME529451__STATEDATAPIVOTED"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME529451__STATEDATAPIVOTED">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">STATEDATAPIVOTED</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME529451__STATEABBREVIATION">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME529451">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME529451__STATEABBREVIATION"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME529451__STATEABBREVIATION">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__STATEABBREVIATION</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">STATEABBREVIATION</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME529451__STATE_1">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME529451">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME529451__STATE_1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME529451__STATE_1">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__STATE_1</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">STATE_1</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME529451__YEAR">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME529451">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME529451__YEAR"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME529451__YEAR">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__YEAR</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">YEAR</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME529451__bup_phys">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME529451">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME529451__bup_phys"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME529451__bup_phys">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__bup_phys</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">bup_phys</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+</rdf:RDF>

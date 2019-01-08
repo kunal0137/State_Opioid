@@ -1,0 +1,1 @@
+["SIMPLE",{"left":{"pixelType":"COLUMN","class":"prerna.query.querystruct.selectors.QueryColumnSelector","value":["COLUMN",{"table":"bup_phys","column":"PRIM_KEY_PLACEHOLDER","alias":"bup_phys","tableAlias":null}],"opType":["OPERATION"]},"comparator":"!=","right":{"pixelType":"NULL_VALUE","class":null,"value":[null],"opType":["OPERATION"]}}]

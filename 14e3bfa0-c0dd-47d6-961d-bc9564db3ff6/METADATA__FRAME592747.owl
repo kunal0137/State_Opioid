@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME592747">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<IsPrimKey xmlns="http://semoss.org/ontologies/Relation/Contains/">true</IsPrimKey>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME592747__STATEDATAPIVOTED">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME592747">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME592747__STATEDATAPIVOTED"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME592747__STATEDATAPIVOTED">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">STATEDATAPIVOTED</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME592747__drugdeathrate">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME592747">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME592747__drugdeathrate"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME592747__drugdeathrate">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__drugdeathrate</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">drugdeathrate</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME592747__STATE_1">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME592747">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME592747__STATE_1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME592747__STATE_1">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__STATE_1</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">STATE_1</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME592747__STATEABBREVIATION">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME592747">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME592747__STATEABBREVIATION"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME592747__STATEABBREVIATION">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__STATEABBREVIATION</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">STATEABBREVIATION</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME592747__YEAR">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME592747">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME592747__YEAR"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME592747__YEAR">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">fd5c8fbb-8f7b-4b71-901c-3e45c166bdab:::STATEDATAPIVOTED__YEAR</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">YEAR</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME592747__national_drugdeathrate">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME592747">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME592747__national_drugdeathrate"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME592747__national_drugdeathrate">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">7ea06ef2-6eb0-49c4-afa3-29a3069c930b:::NATIONALDATAPIVOTED__drugdeathrate</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">national_drugdeathrate</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+</rdf:RDF>

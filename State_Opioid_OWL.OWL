@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://semoss.org/ontologies/Relation/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual rdf:resource="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED"/>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/AMAT_fac/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/AMAT_fac/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/AMAT_fac/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/CDC_consult/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CDC_consult/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/CDC_consult/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/CURES_funds/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CURES_funds/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/CURES_funds/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/DHAP_funds/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/DHAP_funds/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/DHAP_funds/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/DVH_funds/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/DVH_funds/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/DVH_funds/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/HCVacute/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/HCVacute/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/HCVacute/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/HCVacuterate/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/HCVacuterate/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/HCVacuterate/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/HCVcases/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/HCVcases/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/HCVcases/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/HCVprevalence/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/HCVprevalence/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/HCVprevalence/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/HIVdiagnoses/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/HIVdiagnoses/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/HIVdiagnoses/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/HIVincidence/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/HIVincidence/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/HIVincidence/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/HIVprevalence/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/HIVprevalence/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/HIVprevalence/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/HOPWA_funds/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/HOPWA_funds/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/HOPWA_funds/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/MH_fac/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/MH_fac/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/MH_fac/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_AMAT_fac/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_AMAT_fac/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Med_AMAT_fac/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_MH_fac/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_MH_fac/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Med_MH_fac/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_SA_fac/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_SA_fac/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Med_SA_fac/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_SMAT_fac/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_SMAT_fac/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Med_SMAT_fac/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_TMAT_fac/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_TMAT_fac/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Med_TMAT_fac/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/PDMP_check_req/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/PDMP_check_req/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/PDMP_check_req/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/PLHIV/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/PLHIV/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/PLHIV/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Population/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Population/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Population/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/RW_funds/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RW_funds/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/RW_funds/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/SA_fac/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SA_fac/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/SA_fac/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/SMAT_fac/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SMAT_fac/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/SMAT_fac/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/SSP_legality/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SSP_legality/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/SSP_legality/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/STATEABBREVIATION/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/STATEABBREVIATION/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/STATEABBREVIATION/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/STATE_1/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/STATE_1/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/STATE_1/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/TMAT_fac/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/TMAT_fac/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/TMAT_fac/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/YEAR/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/YEAR/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/YEAR/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/bup_phys/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/bup_phys/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/bup_phys/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/drugdeathrate/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/drugdeathrate/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/drugdeathrate/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/drugdeaths/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/drugdeaths/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/drugdeaths/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/drugdep/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/drugdep/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/drugdep/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/fentanyl_seize/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/fentanyl_seize/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/fentanyl_seize/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/mme_percap/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/mme_percap/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/mme_percap/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/nonmedpain/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/nonmedpain/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/nonmedpain/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/num_SSPs/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/num_SSPs/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/num_SSPs/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/op_rel_inpat/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/op_rel_inpat/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/op_rel_inpat/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/partD30dayrxrate/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/partD30dayrxrate/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/partD30dayrxrate/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/pct_tx_med/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/pct_tx_med/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/pct_tx_med/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/pctunins/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/pctunins/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/pctunins/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/pctunmetneed/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/pctunmetneed/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/pctunmetneed/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/state_year/STATEDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED_UNIQUE_ROW_ID/STATEDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/state_year/STATEDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/state_year/STATEDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2018:11:06 18:14:52</TIME>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEDATAPIVOTED/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">728</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/AMAT_fac/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">27</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CDC_consult/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">3</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CURES_funds/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">40</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DHAP_funds/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">51</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DVH_funds/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">49</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/HCVacute/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">104</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/HCVacuterate/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">34</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/HCVcases/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">49</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/HCVprevalence/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">44</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/HIVdiagnoses/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">368</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/HIVincidence/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">216</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/HIVprevalence/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">394</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/HOPWA_funds/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">44</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MH_fac/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">132</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Med_AMAT_fac/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">22</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Med_MH_fac/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">120</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Med_SA_fac/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">265</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Med_SMAT_fac/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">127</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Med_TMAT_fac/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">71</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PDMP_check_req/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PLHIV/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">412</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Population/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">343</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RW_funds/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">0</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SA_fac/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">344</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SMAT_fac/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">165</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SSP_legality/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">3</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEABBREVIATION/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">52</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATE_1/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">52</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TMAT_fac/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">100</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/YEAR/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">14</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/bup_phys/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">49</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/drugdeathrate/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">173</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/drugdeaths/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">324</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/drugdep/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">45</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/fentanyl_seize/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">76</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/mme_percap/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">102</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/nonmedpain/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">45</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/num_SSPs/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">17</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/op_rel_inpat/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">432</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/partD30dayrxrate/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">46</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/pct_tx_med/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">50</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/pctunins/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">75</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/pctunmetneed/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">51</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/state_year/STATEDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">14</UNIQUE>
+</rdf:Description>
+
+</rdf:RDF>
